@@ -1,0 +1,453 @@
+@media only screen and (max-width: 1200px) {
+  /*=================================================*/
+  /*		[	START Header	]		*/
+  /*=================================================*/
+  .page_header .nav ul {
+    margin: 0;
+  }
+  .page_header .location_wrapper {
+    margin-right: 10px;
+  }
+  .page_header .feedback_button {
+    margin-left: 10px;
+  }
+  .page_header .social_links {
+    margin-right: 10px;
+  }
+  .page_header .apps_icons {
+    width: 40px;
+  }
+  .page_header .apps_icons .viber,
+  .page_header .apps_icons .whatsapp {
+    margin-left: 8px;
+  }
+  .map_section {
+    height: 560px;
+  }
+  /*=================================================*/
+  /*		[	START Building Process	]		*/
+  /*=================================================*/
+  .building_process_section .photos_box {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 492px;
+    -ms-flex: 0 0 492px;
+    flex: 0 0 492px;
+    margin-right: 15px;
+    height: 505px;
+  }
+  .building_process_section .video_box {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 400px;
+    -ms-flex: 0 0 400px;
+    flex: 0 0 400px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .map_section {
+    height: 480px;
+  }
+  /*=================================================*/
+  /*		[	START Header	]		*/
+  /*=================================================*/
+  .page_header .apps_icons {
+    display: none;
+  }
+  .page_header .location_wrapper {
+    display: none;
+  }
+  .page_header .nav ul {
+    margin: 0;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .page_header .nav ul li {
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+  .page_header .nav ul li a.activeItem {
+    text-decoration: underline;
+  }
+  /*=================================================*/
+  /*		[	START Contacts	]		*/
+  /*=================================================*/
+  .feedback_form_section .form_container {
+    width: 100%;
+  }
+  /*=================================================*/
+  /*		[	START Building Process	]		*/
+  /*=================================================*/
+  .building_process_section .photos_box {
+    height: 200px;
+    margin: 0 0 30px;
+  }
+  .building_process_section .video_box {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 400px;
+    -ms-flex: 0 0 400px;
+    flex: 0 0 400px;
+    padding: 0 15px;
+  }
+  .building_process_section .video_box .video_wrapper {
+    height: 380px;
+  }
+  .building_process_section .photos_list .item {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.33333%;
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    padding: 0 15px 30px;
+  }
+  .building_process_section .building_process_content {
+    display: block;
+  }
+  /*=================================================*/
+  /*		[	START Trailers Info Slider	]		*/
+  /*=================================================*/
+  .trailer_slider_section .slide_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .trailer_slider_section .trailer_photo {
+    padding: 0 0 30px;
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+  .trailer_slider_section .slide_description_inner:before {
+    display: block;
+    margin: 0;
+  }
+  .trailer_slider_section .description_box {
+    padding: 0;
+  }
+  .trailer_slider_section .description_box .description_content {
+    padding: 0;
+  }
+  .trailer_slider_section .description_box .description_content:before {
+    display: none;
+  }
+  /*=================================================*/
+  /*		[	START OUR ADVANTAGES	]		*/
+  /*=================================================*/
+  .our_preim_section .advantages_slider .dots {
+    display: none !important;
+  }
+  .our_preim_section .advantages_slider .slide_full_text {
+    display: block !important;
+  }
+  .our_preim_section .advantages_slider .slider_content:hover .slide_photo img {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    border-color: #ccc;
+  }
+  .our_preim_section .advantages_slider .slider_content:hover .slide_title {
+    color: #2f3e5d;
+  }
+  .our_preim_section .advantages_slider .slider_content:hover .dots {
+    display: none;
+  }
+  .our_preim_section .advantages_slider .slider_content:hover .slide_full_text {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .btn_scroll_up {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+  }
+  /*=================================================*/
+  /*		[	START Header	]		*/
+  /*=================================================*/
+  .page_header .support_phone {
+    display: none;
+  }
+  .page_header .nav #navBtn {
+    display: block;
+  }
+  .page_header .nav .hover {
+    display: none;
+  }
+  .page_header .nav ul {
+    position: absolute;
+    width: 100%;
+    background: #9b2825;
+    display: none;
+    z-index: 20;
+    padding: 0 15px 15px;
+    margin: 0 -15px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  .page_header .nav ul.no_slide_hover .hover {
+    display: none;
+  }
+  .page_header .nav ul li a {
+    line-height: 1;
+    height: auto;
+    padding: 10px 15px;
+    margin: 0 -15px;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    display: block;
+  }
+  .page_header .nav ul li a.activeItem {
+    background: #fff;
+    color: #9b2825;
+    text-decoration: none;
+  }
+  /*=================================================*/
+  /*		[	START Footer	]		*/
+  /*=================================================*/
+  .page_footer .main_footer {
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .page_footer .copyright_col {
+    padding: 30px 0;
+  }
+  /*=================================================*/
+  /*		[	START Contacts Section	]		*/
+  /*=================================================*/
+  .contacts_section .contacts_wrapper {
+    width: 100%;
+  }
+  .contacts_section .phone_wrapper {
+    display: block;
+    padding-bottom: 30px;
+  }
+  .contacts_section .phone_wrapper .contact_item {
+    padding: 0;
+  }
+  .contacts_section .apps_icons {
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .contacts_section .apps_icons .viber,
+  .contacts_section .apps_icons .whatsapp {
+    margin: 0 5px;
+  }
+  /*=================================================*/
+  /*		[	START Why We Section	]		*/
+  /*=================================================*/
+  .why_we_section .our_advantages_list {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .why_we_section .our_advantages_list .item {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+  }
+  /*=================================================*/
+  /*		[	START Trailers Info Slider	]		*/
+  /*=================================================*/
+  .trailer_slider_section .description_box {
+    display: block;
+  }
+  .trailer_slider_section .trailer_photo {
+    padding: 0;
+  }
+  .trailer_slider_section .form_container {
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .map_section {
+    height: 380px;
+  }
+  /*=================================================*/
+  /*		[	START Contacts	]		*/
+  /*=================================================*/
+  .feedback_form_section .form_container {
+    width: 100%;
+  }
+  .feedback_form_section .feilds_wrapper {
+    display: block;
+    margin: 0;
+    padding: 0s;
+  }
+  .feedback_form_section .feilds_wrapper .input_wrapper {
+    padding: 0 0 15px;
+  }
+  /*=================================================*/
+  /*		[	START Building Process	]		*/
+  /*=================================================*/
+  .building_process_section .video_box .video_wrapper {
+    height: 320px;
+  }
+  .building_process_section .photos_list .item {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  /*=================================================*/
+  /*		[	START Header	]		*/
+  /*=================================================*/
+  .page_header .social_links {
+    display: none;
+  }
+  .page_header .contacts_box {
+    display: block;
+  }
+  .page_header .phone_wrapper {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  /*=================================================*/
+  /*		[	START Contacts Section	]		*/
+  /*=================================================*/
+  .contacts_section .contacts_wrapper {
+    width: 100%;
+    display: block;
+  }
+  .contacts_section .social_links {
+    text-align: center;
+  }
+  .contacts_section .social_links .link {
+    display: inline-block;
+    margin: 0 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .map_section {
+    height: 280px;
+  }
+  .modal_form {
+    width: 280px;
+  }
+  .modal_form .form_wrapper .input_wrapper {
+    width: 100%;
+  }
+  .modal_form .fancybox-close-small {
+    right: 0;
+  }
+  /*=================================================*/
+  /*		[	START Why We Section	]		*/
+  /*=================================================*/
+  .why_we_section .our_advantages_list {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .why_we_section .our_advantages_list .item {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+  /*=================================================*/
+  /*		[	START Building Process	]		*/
+  /*=================================================*/
+  .building_process_section .video_box .video_wrapper {
+    height: 220px;
+  }
+  .building_process_section .photos_box {
+    height: 300px;
+    margin: 0 0 30px;
+  }
+  .building_process_section .photos_list .item {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+  .building_process_section .photos_list .item a img {
+    width: 100%;
+  }
+  /*=================================================*/
+  /*		[	START Trailers Info Slider	]		*/
+  /*=================================================*/
+  .trailer_slider_section .slide {
+    padding: 0 40px;
+  }
+  .trailer_slider_section .trailer_parameters_wrapper .parameters_box {
+    padding-top: 30px;
+  }
+  .trailer_slider_section .trailer_parameters_wrapper .patameter_item {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    padding-bottom: 15px;
+  }
+  .trailer_slider_section .trailer_parameters_wrapper .parameters_list {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .trailer_slider_section .slider_nav {
+    margin-top: -20px;
+  }
+  .trailer_slider_section .slider_nav .prev_slide,
+  .trailer_slider_section .slider_nav .next_slide {
+    width: 40px;
+    height: 40px;
+  }
+  .trailer_slider_section .slider_nav .prev_slide i,
+  .trailer_slider_section .slider_nav .next_slide i {
+    line-height: 40px;
+  }
+  /*=================================================*/
+  /*		[	START OUR ADVANTAGES	]		*/
+  /*=================================================*/
+  .our_preim_section .slider_wrapper {
+    padding: 0 45px;
+  }
+  .our_preim_section .slider_nav {
+    margin-top: -20px;
+  }
+  .our_preim_section .slider_nav .prev_slide,
+  .our_preim_section .slider_nav .next_slide {
+    width: 40px;
+    height: 40px;
+  }
+  .our_preim_section .slider_nav .prev_slide i,
+  .our_preim_section .slider_nav .next_slide i {
+    line-height: 40px;
+  }
+  /*=================================================*/
+  /*		[	START Header	]		*/
+  /*=================================================*/
+  .page_header .logo_container {
+    height: 200px;
+  }
+  .page_header .logo_box {
+    background: none;
+  }
+  .page_header .button a {
+    width: 140px;
+  }
+}
